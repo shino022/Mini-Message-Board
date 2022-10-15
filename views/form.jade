@@ -1,0 +1,9 @@
+//h1= page.title
+form(action='/new', method='POST')
+  div
+    | name: 
+    input(type='text', name='messageUser', value='')
+  div
+    | text: 
+    input(type='text', name='messageText', value='')
+  input(type='submit', value='Submit')
